@@ -1,0 +1,399 @@
+<link rel="stylesheet" href="css/animations.css">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us | Sparsha Skin & ENT Hospital</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+
+    <!-- ================= PRELOADER ================= -->
+
+<div id="preloader">
+
+    <div class="loader-box">
+
+        <img src="images/logo.png"
+             alt="Sparsha Hospital Logo"
+             class="loader-logo">
+
+        <div class="loader-circle"></div>
+
+        <h4>Sparsha Hospital</h4>
+
+        <p>Loading...</p>
+
+    </div>
+
+</div>
+
+<!-- ================= NAVBAR ================= -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+
+<div class="container">
+
+<a class="navbar-brand d-flex align-items-center" href="index.html">
+
+<img src="images/logo.png" width="55">
+
+<div class="ms-2">
+
+<h5 class="mb-0">Sparsha Hospital</h5>
+
+<small class="text-primary">Skin & ENT Hospital</small>
+
+</div>
+
+</a>
+
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+
+<span class="navbar-toggler-icon"></span>
+
+</button>
+
+<div class="collapse navbar-collapse" id="menu">
+
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+<li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+<li class="nav-item"><a class="nav-link" href="doctors.html">Doctors</a></li>
+<li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+<li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+
+</ul>
+
+<a href="appointment.html" class="btn btn-primary ms-lg-3">
+
+Book Appointment
+
+</a>
+
+</div>
+
+</div>
+
+</nav>
+
+<!-- ================= PAGE HEADER ================= -->
+
+<section class="hero">
+
+<div class="container text-center">
+
+<h1 class="fw-bold">
+
+Contact Us
+
+</h1>
+
+<p class="lead">
+
+We're Here to Help You
+
+</p>
+
+</div>
+
+</section>
+
+<!-- ================= CONTACT INFO ================= -->
+
+<section class="py-5">
+
+<div class="container">
+
+<div class="row g-4">
+
+<div class="col-lg-5">
+
+<div class="card shadow p-4 h-100">
+
+<h3 class="mb-4">
+
+Hospital Information
+
+</h3>
+
+<p>
+
+<i class="fa-solid fa-location-dot text-primary me-2"></i>
+
+<strong>Address</strong><br>
+
+Sangapur Road,<br>
+
+Opp. Old Vegetable Market,<br>
+
+Gajwel, Telangana
+
+</p>
+
+<hr>
+
+<p>
+
+<i class="fa-solid fa-phone text-primary me-2"></i>
+
+<strong>Phone</strong><br>
+
++91 97012 35108
+
+</p>
+
+<hr>
+
+<p>
+
+<i class="fa-solid fa-envelope text-primary me-2"></i>
+
+<strong>Email</strong><br>
+
+info@sparshahospital.com
+
+</p>
+
+<hr>
+
+<p>
+
+<i class="fa-solid fa-clock text-primary me-2"></i>
+
+<strong>Working Hours</strong><br>
+
+Monday - Saturday<br>
+
+09:00 AM - 08:00 PM
+
+</p>
+
+</div>
+
+</div>
+
+<!-- CONTACT FORM -->
+
+<div class="col-lg-7">
+
+<div class="card shadow p-4">
+
+<h3 class="mb-4">
+
+Send Us a Message
+
+</h3>
+
+<form action="php/contact.php" method="POST">
+
+<div class="row">
+
+<div class="col-md-6 mb-3">
+
+<label>Name</label>
+
+<input type="text"
+class="form-control"
+name="name"
+required>
+
+</div>
+
+<div class="col-md-6 mb-3">
+
+<label>Phone</label>
+
+<input type="tel"
+class="form-control"
+name="phone"
+required>
+
+</div>
+
+<div class="col-md-12 mb-3">
+
+<label>Email</label>
+
+<input type="email"
+class="form-control"
+name="email">
+
+</div>
+
+<div class="col-md-12 mb-3">
+
+<label>Subject</label>
+
+<input type="text"
+class="form-control"
+name="subject">
+
+</div>
+
+<div class="col-md-12 mb-4">
+
+<label>Message</label>
+
+<textarea
+class="form-control"
+rows="6"
+name="message"
+required></textarea>
+
+</div>
+
+<div class="col-md-12">
+
+<button class="btn btn-primary w-100">
+
+Send Message
+
+</button>
+
+</div>
+
+</div>
+
+</form>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= GOOGLE MAP ================= -->
+
+<section class="pb-5">
+
+<div class="container">
+
+<h2 class="text-center mb-4">
+
+Find Us
+
+</h2>
+
+<div class="ratio ratio-16x9 shadow rounded">
+
+<iframe
+src="https://www.google.com/maps?q=Gajwel,+Telangana&output=embed"
+style="border:0;"
+allowfullscreen
+loading="lazy">
+
+</iframe>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= CTA ================= -->
+
+<section class="bg-primary text-white py-5">
+
+<div class="container text-center">
+
+<h2>
+
+Need Immediate Assistance?
+
+</h2>
+
+<p>
+
+Call us now or book your appointment online.
+
+</p>
+
+<a href="tel:+919701235108"
+class="btn btn-light btn-lg me-3">
+
+Call Now
+
+</a>
+
+<a href="appointment.html"
+class="btn btn-outline-light btn-lg">
+
+Book Appointment
+
+</a>
+
+</div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="bg-dark text-white py-5">
+
+<div class="container text-center">
+
+<h4>
+
+Sparsha Skin & ENT Hospital
+
+</h4>
+
+<p>
+
+Sangapur Road,<br>
+
+Opp. Old Vegetable Market,<br>
+
+Gajwel, Telangana
+
+</p>
+
+<p>
+
+📞 +91 97012 35108
+
+</p>
+
+<p>
+
+© 2026 Sparsha Skin & ENT Hospital
+
+</p>
+
+</div>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
