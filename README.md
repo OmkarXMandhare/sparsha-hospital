@@ -113,7 +113,7 @@ dashboard.png
 Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/sparsha-hospital.git
+git clone https://github.com/omkarxmandhare/sparsha-hospital.git
 ```
 
 Open the project folder
