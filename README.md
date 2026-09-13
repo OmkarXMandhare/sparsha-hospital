@@ -14,9 +14,9 @@
 </p>
 
 <p align="center">
-  <a href="YOUR_DEPLOYED_LINK">🌐 Live Website</a>
+  <a href="https://omkarxmandhare.github.io/sparsha-hospital/">🌐 Live Website</a>
   •
-  <a href="YOUR_GITHUB_LINK">💻 GitHub Repository</a>
+  <a href="https://github.com/OmkarXMandhare">💻 GitHub Repository</a>
 </p>
 
 ---
@@ -235,7 +235,7 @@ Replace YOUR_DEPLOYED_LINK with your GitHub Pages deployment URL.
 
 Example:
 
-https://YOUR_USERNAME.github.io/sparsha-hospital/
+https://omkarxmandhare.github.io/sparsha-hospital/
 📸 Screenshots
 Home Page
 
